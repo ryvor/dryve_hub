@@ -1,25 +1,22 @@
 //Packages
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 // Pages
-import 'home.dart';
+import 'connecting.dart';
 
-void main() {
-	runApp(const MyApp());
-}
+void main() { runApp(const MyApp()); }
 
 class MyApp extends StatelessWidget {
 	const MyApp({super.key});
+
 	@override
 	Widget build(BuildContext context) {
-		return MaterialApp(
-			title: 'Dryve Hub',
-			home: const MyHomePage(title: 'Home'),
-				theme: ThemeData(colorScheme: ColorScheme.fromSeed(
-					seedColor: const Color.fromRGBO(40, 40, 40, 255),
-					brightness: Brightness.dark,
-				),
-			),
+    return MaterialApp(
+      title: 'Dryve Hub',
+      debugShowCheckedModeBanner: false,
+			home: const ConnectingPage()
 		);
 	}
 }

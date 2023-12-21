@@ -62,6 +62,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_blue_plus:
+    dependency: "direct main"
+    description:
+      name: flutter_blue_plus
+      sha256: "8e648f920edabfcca91dd1c89b44fbfee4b5affeb4e9f3fae6f2a06c93450ad9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.30.8"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -70,6 +78,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  flutter_staggered_grid_view:
+    dependency: "direct main"
+    description:
+      name: flutter_staggered_grid_view
+      sha256: "1312314293acceb65b92754298754801b0e1f26a1845833b740b30415bbbcf07"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -83,6 +99,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
+  liquid_pull_to_refresh:
+    dependency: "direct main"
+    description:
+      name: liquid_pull_to_refresh
+      sha256: "11e4cd8c5460085a31b479ec4e1cd063eb8e599f35684d57a44dafa1fd1f67f3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.1"
   matcher:
     dependency: transitive
     description:
@@ -186,3 +210,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.3 <4.0.0"
+  flutter: ">=2.5.0"
